@@ -1,0 +1,144 @@
+<footer class="site-footer">
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+
+      <!-- Left: Copyright -->
+      <div class="footer-col footer-col-left">
+        <p>Copyright &copy; {{ site.time | date: "%Y" }} Hear &amp; Sing &mdash; Jeff Dostert</p>
+      </div>
+
+      <!-- Right: Language dropdown -->
+      <div class="footer-col footer-col-right">
+        {%- assign current_url = page.url -%}
+        {%- if current_url contains '/de/' -%}
+          {%- assign footer_lang = 'DE' -%}
+          {%- assign f_en_url = current_url | replace: '/de/', '/' -%}
+          {%- assign f_de_url = '' -%}
+          {%- assign f_fr_url = current_url | replace: '/de/', '/fr/' -%}
+        {%- elsif current_url contains '/fr/' -%}
+          {%- assign footer_lang = 'FR' -%}
+          {%- assign f_en_url = current_url | replace: '/fr/', '/' -%}
+          {%- assign f_de_url = current_url | replace: '/fr/', '/de/' -%}
+          {%- assign f_fr_url = '' -%}
+        {%- else -%}
+          {%- assign footer_lang = 'EN' -%}
+          {%- assign f_en_url = '' -%}
+          {%- assign f_de_url = '/de' | append: current_url -%}
+          {%- assign f_fr_url = '/fr' | append: current_url -%}
+        {%- endif -%}
+
+        <div class="lang-dropdown lang-dropdown--footer">
+          <button class="lang-dropdown-btn lang-dropdown-btn--footer" aria-label="Select language">
+            🌐 {{ footer_lang }} <span class="lang-arrow">▾</span>
+          </button>
+          <ul class="lang-dropdown-menu lang-dropdown-menu--footer">
+            {%- if footer_lang == 'EN' -%}
+              <li class="lang-active">🇬🇧 English</li>
+            {%- else -%}
+              <li><a href="{{ f_en_url }}">🇬🇧 English</a></li>
+            {%- endif -%}
+            {%- if footer_lang == 'DE' -%}
+              <li class="lang-active">🇩🇪 Deutsch</li>
+            {%- else -%}
+              <li><a href="{{ f_de_url }}">🇩🇪 Deutsch</a></li>
+            {%- endif -%}
+            {%- if footer_lang == 'FR' -%}
+              <li class="lang-active">🇫🇷 Français</li>
+            {%- else -%}
+              <li><a href="{{ f_fr_url }}">🇫🇷 Français</a></li>
+            {%- endif -%}
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<style>
+  .footer-col-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer-col-left p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #828282;
+  }
+
+  /* Footer dropdown — opens upward */
+  .lang-dropdown--footer {
+    position: relative;
+    display: inline-block;
+  }
+  .lang-dropdown-btn--footer {
+    background: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #828282;
+    font-family: inherit;
+  }
+  .lang-dropdown-btn--footer:hover {
+    background: #f5f5f5;
+  }
+  .lang-dropdown-menu--footer {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: calc(100% + 4px); /* opens upward */
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
+    list-style: none;
+    margin: 0;
+    padding: 4px 0;
+    min-width: 140px;
+    z-index: 100;
+  }
+  .lang-dropdown--footer:hover .lang-dropdown-menu--footer,
+  .lang-dropdown--footer:focus-within .lang-dropdown-menu--footer {
+    display: block;
+  }
+  .lang-dropdown-menu--footer li a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    color: #424242;
+    text-decoration: none;
+  }
+  .lang-dropdown-menu--footer li a:hover {
+    background: #f5f5f5;
+  }
+  .lang-dropdown-menu--footer li.lang-active {
+    display: block;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    color: #1a73e8;
+    font-weight: 600;
+  }
+
+  /* Mobile: stack footer columns and prevent dropdown from going off-screen */
+  @media (max-width: 600px) {
+    .footer-col-wrapper {
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+    }
+    .lang-dropdown--footer {
+      overflow: visible;
+    }
+    .lang-dropdown-menu--footer {
+      right: auto;
+      left: 0;
+    }
+  }
+</style>
