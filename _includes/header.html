@@ -62,17 +62,17 @@
             {%- if active_lang == 'EN' -%}
               <li class="lang-active">🇬🇧 English</li>
             {%- else -%}
-              <li><a href="{{ en_url }}">🇬🇧 English</a></li>
+              <li><a href="{{ en_url | relative_url }}">🇬🇧 English</a></li>
             {%- endif -%}
             {%- if active_lang == 'DE' -%}
               <li class="lang-active">🇩🇪 Deutsch</li>
             {%- else -%}
-              <li><a href="{{ de_url }}">🇩🇪 Deutsch</a></li>
+              <li><a href="{{ de_url | relative_url }}">🇩🇪 Deutsch</a></li>
             {%- endif -%}
             {%- if active_lang == 'FR' -%}
               <li class="lang-active">🇫🇷 Français</li>
             {%- else -%}
-              <li><a href="{{ fr_url }}">🇫🇷 Français</a></li>
+              <li><a href="{{ fr_url | relative_url }}">🇫🇷 Français</a></li>
             {%- endif -%}
           </ul>
         </div>
