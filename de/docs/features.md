@@ -78,5 +78,8 @@ Hear & Sing enthält mehrere integrierte Siri-Phrasen:
 - „[Liedname] in Hear & Sing abspielen"
 - „[Bibelbbuch] in Hear & Sing abspielen"
 - „[Bibelbbuch] in Hear & Sing lesen"
+- „JW Broadcasting in Hear & Sing abspielen"
+- „JW Broadcasting [Monat] in Hear & Sing abspielen" — z. B. „JW Broadcasting April in Hear & Sing abspielen"
+- „JW Broadcasting [Monat] [Jahr] in Hear & Sing abspielen" — z. B. „JW Broadcasting April 2026 in Hear & Sing abspielen"
 
 Eigene Phrasen können über die Kurzbefehle-App mit der Schaltfläche **Eigene Phrase hinzufügen** in den Einstellungen erstellt werden.

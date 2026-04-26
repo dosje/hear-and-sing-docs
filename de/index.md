@@ -24,7 +24,7 @@ permalink: /de/
 - **JW.org-Browser** — der eingebaute Browser erkennt Audioseiten und bietet Import mit einem Tippen
 - **Bibelaudio** — Neue-Welt-Übersetzung nach Buch und Kapitel in jeder Sprache durchsuchen
 - **CarPlay** — vollständige CarPlay-Unterstützung mit „Spielt gerade" und Listenansicht
-- **Siri-Kurzbefehle** — nach Liedname, Bibelbbuch abspielen oder Bibliothek per Sprache mischen
+- **Siri-Kurzbefehle** — nach Liedname, Bibelbuch oder JW-Sendung abspielen oder Bibliothek per Sprache mischen
 - **iPhone & iPad** — vollständig adaptives Layout für alle Bildschirmgrößen
 - **Kostenlos** — keine In-App-Käufe, kein Abonnement
 

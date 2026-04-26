@@ -24,7 +24,7 @@ permalink: /fr/
 - **Navigateur JW.org** — le navigateur intégré détecte les pages audio et propose l'import en un geste
 - **Audio biblique** — parcourez la Traduction du monde nouveau par livre et chapitre dans n'importe quelle langue
 - **CarPlay** — prise en charge complète de CarPlay avec lecture en cours et navigation par liste
-- **Raccourcis Siri** — lisez par nom de chanson, livre biblique, ou mélangez votre bibliothèque vocalement
+- **Raccourcis Siri** — lisez par nom de chanson, livre biblique, émission JW Broadcasting, ou mélangez votre bibliothèque vocalement
 - **iPhone & iPad** — mise en page entièrement adaptative pour toutes les tailles d'écran
 - **Gratuit** — aucun achat intégré, aucun abonnement
 

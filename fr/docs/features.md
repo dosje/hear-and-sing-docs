@@ -78,5 +78,8 @@ Hear & Sing inclut plusieurs phrases Siri intégrées :
 - « Jouer [nom de la chanson] dans Hear & Sing »
 - « Jouer [livre biblique] dans Hear & Sing »
 - « Lire [livre biblique] dans Hear & Sing »
+- « Jouer JW Broadcasting dans Hear & Sing »
+- « Jouer JW Broadcasting [mois] dans Hear & Sing » — ex. « Jouer JW Broadcasting avril dans Hear & Sing »
+- « Jouer JW Broadcasting [mois] [année] dans Hear & Sing » — ex. « Jouer JW Broadcasting avril 2026 dans Hear & Sing »
 
 Des phrases personnalisées peuvent être créées via l'app Raccourcis en utilisant le bouton **Ajouter une phrase personnalisée** dans les Paramètres.
