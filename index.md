@@ -23,7 +23,7 @@ title: Home
 - **JW.org browser** — built-in browser detects audio pages and offers one-tap import
 - **Bible audio** — browse the New World Translation by book and chapter in any language
 - **CarPlay** — full CarPlay support with Now Playing and list browsing
-- **Siri Shortcuts** — play by song name, Bible book, or shuffle your library by voice
+- **Siri Shortcuts** — play by song name, Bible book, JW Broadcasting episode, or shuffle your library by voice
 - **iPhone & iPad** — fully adaptive layout for all screen sizes
 - **Free** — no in-app purchases, no subscription
 
