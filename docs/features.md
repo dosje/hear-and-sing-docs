@@ -17,10 +17,11 @@ The Library tab is the home for all your local audio files.
 - Tracks display artwork, title, artist, and album
 - Edit track metadata (title, artist, album, category) with the Track Edit sheet
 - Download individual tracks or entire albums with one tap
+- Each album remembers the last language you selected and restores it on re-open
 
 ## Browse Tab
 
-The Browse tab is a built-in web browser that makes adding JW.org audio simple.
+The Browse tab is a built-in web browser that makes adding JW.org audio simple. It is **opt-in** — enable it in **Settings → Browser**.
 
 - Navigates to jw.org automatically on first open
 - An **"Add to App"** banner appears when you land on a JW.org music or audio page
@@ -55,6 +56,7 @@ Bible audio is accessible directly from the Library tab.
 
 ## Settings Tab
 
+- **Browser** toggle — enables or disables the Browse tab; optional custom start URL
 - **Haptic feedback** toggle
 - **Siri & Shortcuts**: built-in phrases listed + "Add Custom Phrase" deep-link opens Shortcuts app
 - **Storage**: Downloaded Tracks count, Library Tracks count, and total disk usage
@@ -67,7 +69,8 @@ Bible audio is accessible directly from the Library tab.
 - Full-screen player sheet with artwork, seek slider, prev/play/next, shuffle, speed control (0.75×–2×), and AirPlay picker
 - Swipe the mini bar left or right to skip to the previous or next track
 - **Up Next queue** visible in the full player
-- **CarPlay** support: CPNowPlayingTemplate for the current track and CPListTemplate for library browsing
+- **Streaming artwork** — when a track is played before it is downloaded, album art is fetched from the stream and shown on the lock screen, Control Center, and CarPlay
+- **CarPlay** support: Now Playing screen, library browsing, playlist browsing, and search (up to 12 results). When offline or data-restricted only downloaded tracks are shown; streaming tracks appear when Wi-Fi or cellular data is available.
 
 ## Siri Shortcuts (AppIntents)
 

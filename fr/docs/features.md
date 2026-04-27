@@ -17,10 +17,11 @@ L'onglet Bibliothèque est la base de tous vos fichiers audio locaux.
 - Les pistes affichent la pochette, le titre, l'artiste et l'album
 - Modifiez les métadonnées d'une piste (titre, artiste, album, catégorie) via la feuille d'édition
 - Téléchargez des pistes individuelles ou des albums entiers en un geste
+- Chaque album mémorise la dernière langue sélectionnée et la restaure à la réouverture
 
 ## Onglet Naviguer
 
-L'onglet Naviguer est un navigateur web intégré qui simplifie l'ajout d'audio depuis JW.org.
+L'onglet Naviguer est un navigateur web intégré qui simplifie l'ajout d'audio depuis JW.org. Il est **optionnel** — activez-le dans **Paramètres → Navigateur**.
 
 - Accède automatiquement à jw.org à la première ouverture
 - Une bannière **« Ajouter à l'app »** apparaît sur les pages de musique ou d'audio JW.org
@@ -55,6 +56,7 @@ L'audio biblique est accessible directement depuis l'onglet Bibliothèque.
 
 ## Onglet Paramètres
 
+- Bascule **Navigateur** — active ou désactive l'onglet Naviguer ; URL de départ personnalisée optionnelle
 - Activation/désactivation du **retour haptique**
 - **Siri & Raccourcis** : phrases intégrées listées + lien direct « Ajouter une phrase personnalisée » vers l'app Raccourcis
 - **Stockage** : nombre de pistes téléchargées, nombre de pistes dans la bibliothèque et utilisation totale du disque
@@ -67,7 +69,8 @@ L'audio biblique est accessible directement depuis l'onglet Bibliothèque.
 - Lecteur plein écran avec pochette, curseur de défilement, préc/lecture/suiv, lecture aléatoire, contrôle de vitesse (0,75×–2×) et sélecteur AirPlay
 - Balayez la mini barre à gauche ou à droite pour passer à la piste précédente ou suivante
 - **File À suivre** visible dans le lecteur plein écran
-- Prise en charge **CarPlay** : CPNowPlayingTemplate pour la piste en cours et CPListTemplate pour la navigation dans la bibliothèque
+- **Pochette en streaming** — lorsqu'une piste est lue avant d'être téléchargée, la pochette est récupérée depuis le flux et affichée sur l'écran verrouillé, le Centre de contrôle et CarPlay
+- Prise en charge **CarPlay** : écran En lecture, navigation dans la bibliothèque, navigation dans les listes de lecture et recherche (jusqu'à 12 résultats). Hors ligne ou sans données, seules les pistes téléchargées sont affichées ; les pistes en streaming apparaissent en Wi-Fi ou avec des données cellulaires.
 
 ## Raccourcis Siri (AppIntents)
 

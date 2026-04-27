@@ -17,10 +17,11 @@ Der Reiter „Bibliothek" ist die Zentrale für alle Ihre lokalen Audiodateien.
 - Titel zeigen Albumcover, Titel, Künstler und Album
 - Metadaten eines Titels bearbeiten (Titel, Künstler, Album, Kategorie) über das Bearbeitungsblatt
 - Einzelne Titel oder ganze Alben mit einem Tippen herunterladen
+- Jedes Album merkt sich die zuletzt gewählte Sprache und stellt diese beim erneuten Öffnen wieder her
 
 ## Reiter Durchsuchen
 
-Der Reiter „Durchsuchen" ist ein eingebauter Webbrowser, der das Hinzufügen von JW.org-Audio vereinfacht.
+Der Reiter „Durchsuchen" ist ein eingebauter Webbrowser, der das Hinzufügen von JW.org-Audio vereinfacht. Er ist **optional** – aktivieren Sie ihn unter **Einstellungen → Browser**.
 
 - Öffnet beim ersten Start automatisch jw.org
 - Ein **„Zur App hinzufügen"**-Banner erscheint auf JW.org-Musik- oder Audioseiten
@@ -55,6 +56,7 @@ Bibelaudio ist direkt über den Reiter „Bibliothek" zugänglich.
 
 ## Reiter Einstellungen
 
+- **Browser**-Umschalter – aktiviert oder deaktiviert den Reiter „Durchsuchen"; optional eigene Start-URL
 - **Haptisches Feedback** ein-/ausschalten
 - **Siri & Kurzbefehle**: integrierte Phrasen aufgelistet + „Eigene Phrase hinzufügen"-Deeplink zur Kurzbefehle-App
 - **Speicher**: Anzahl heruntergeladener Titel, Anzahl der Bibliothekstitel und Gesamtspeicherverbrauch
@@ -67,7 +69,8 @@ Bibelaudio ist direkt über den Reiter „Bibliothek" zugänglich.
 - Vollbild-Player mit Albumcover, Suchregler, Zurück/Abspielen/Weiter, Zufallswiedergabe, Geschwindigkeitsregler (0,75×–2×) und AirPlay-Auswahl
 - Mini-Leiste nach links oder rechts wischen, um zum vorherigen oder nächsten Titel zu springen
 - **Nächste Titel**-Warteschlange im Vollbild-Player sichtbar
-- **CarPlay**-Unterstützung: CPNowPlayingTemplate für den aktuellen Titel und CPListTemplate für die Bibliotheks-Navigation
+- **Streaming-Albumcover** – wird beim Abspielen eines noch nicht heruntergeladenen Titels aus dem Stream geladen und auf dem Sperrbildschirm, im Kontrollzentrum und in CarPlay angezeigt
+- **CarPlay**-Unterstützung: „Spielt gerade"-Bildschirm, Bibliotheks-Navigation, Wiedergabelisten und Suche (bis zu 12 Ergebnisse). Ohne Netzwerk werden nur heruntergeladene Titel angezeigt; Streaming-Titel erscheinen bei WLAN- oder mobiler Datenverbindung.
 
 ## Siri-Kurzbefehle (AppIntents)
 
